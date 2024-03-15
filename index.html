@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kezdőlap</title>
+    <link rel="icon" type="image/x-icon" href="image/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!-- header section start -->
+    <nav>
+        <div class="container-fluid">
+            <div class="navbar">
+                <div class="logo"><a href="index.html"><img src="image/logo.png" alt="logo"></a></div>
+                <div class="navlink">
+                    <div class="closebutton"><i class="fa fa-times-circle" aria-hidden="true"></i></div>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                Las Vegas</a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Makaó</a>
+                        </li>
+                        <li>
+                            <a href="#">Monte Carlo</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="open"><i class="fa fa-bars" aria-hidden="true"></i></div>
+            </div>
+        </div>
+    </nav>
+    <!-- header section start -->
+    <!-- hotel banner section start -->
+    <div class="hotel_banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="banner_box">
+                        <h1>Fedezze fel az Ultimate Casino Stayst</h1>
+                        <p>Üdvözöljük az izgalmas szerencsejátékok világában! Fedezze fel Las Vegas csillogását és
+                            csillogását, Makaó vibráló energiáját és Monte Carlo időtlen eleganciáját. Az ikonikus
+                            kaszinóktól és fényűző üdülőhelyektől a lebilincselő szórakozásig és kulináris élvezetekig
+                            ezek az úti célok páratlan élményt kínálnak az izgalmat és luxust kereső utazók számára.
+                            Akár a Las Vegas Strip káprázatos fényei, akár Makaó fényűző kaszinói, akár Monte Carlo
+                            játékvilágának kifinomultsága vonzza Önt, weboldalunk a világ legjobb
+                            szerencsejáték-célpontjaihoz vezet. Csatlakozzon hozzánk, miközben elmélyül e
+                            világszínvonalú szerencsejáték-hotspotok izgalmában és vonzerejében.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- hotel banner section end -->
+    <!--footer start-->
+    <!-- footer end-->
+    <!--cookies start -->
+
+    <!-- <div class="card cookie-alert">
+
+        <div class="card-body p-5">
+
+            <h4>Σημείωση cookie</h4>
+
+            <p>Για να βελτιώσουμε την εμπειρία σας και να παρέχουμε εξατομικευμένο περιεχόμενο, ο
+                ιστότοπός μας χρησιμοποιεί cookies. Αυτά τα μικρά αρχεία κειμένου αποθηκεύονται στη
+                συσκευή σας και μας βοηθούν να θυμόμαστε τις προτιμήσεις σας, να αναλύουμε την
+                επισκεψιμότητα του ιστότοπου και να βελτιώνουμε τη συνολική λειτουργικότητα.
+                Συνεχίζοντας την περιήγηση στον ιστότοπό μας συμφωνείτε με τη χρήση των cookies. Να
+                είστε σίγουροι ότι οι πληροφορίες που συλλέγονται χρησιμοποιούνται μόνο για τη βελτίωση
+                της εμπειρίας σας και δεν κοινοποιούνται σε τρίτους.
+
+            </p>
+
+            <div class="btn-toolbar justify-content-end">
+
+
+
+
+                <a href="#" class="btn btn-primary accept-cookies">Αποδέχομαι</a>
+
+            </div>
+
+        </div>
+
+    </div> -->
+
+    <!--cookies end -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="javascript/bootstrap.js"></script>
+    <script src="javascript/slick.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".open").click(function () {
+                $("body").addClass("toggle");
+            });
+        });
+        $(document).ready(function () {
+            $(".closebutton").click(function () {
+                $("body").removeClass("toggle");
+            });
+        });
+        $('.multiple-items').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            dots: false,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false
+                    }
+                },
+            ]
+        });
+
+    </script>
+    <script>
+        (function () {
+            "use strict";
+            var cookieAlert = document.querySelector(".cookie-alert");
+            var acceptCookies = document.querySelector(".accept-cookies");
+            cookieAlert.offsetHeight; // Force browser to trigger reflow (https://stackoverflow.com/a/39451131)
+            if (!getCookie("acceptCookies")) {
+                cookieAlert.classList.add("show");
+
+            }
+            acceptCookies.addEventListener("click", function () {
+                setCookie("acceptCookies", true, 60);
+                cookieAlert.classList.remove("show");
+            });
+        })();
+
+        // Cookie functions stolen from w3schools
+        function setCookie(cname, cvalue, exdays) {
+
+            var d = new Date();
+
+            d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+
+            var expires = "expires=" + d.toUTCString();
+
+            document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+
+        }
+        function getCookie(cname) {
+            var name = cname + "=";
+            var decodedCookie = decodeURIComponent(document.cookie);
+            var ca = decodedCookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) === ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) === 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+        }
+
+    </script>
+</body>
+
+</html>

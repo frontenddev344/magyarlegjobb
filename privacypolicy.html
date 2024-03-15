@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adatvédelmi irányelvek</title>
+    <link rel="icon" type="image/x-icon" href="image/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!-- header start -->
+    <nav>
+        <div class="container-fluid">
+            <div class="navbar">
+                <div class="logo"><a href="index.html"><img src="image/logo.png" alt="logo"></a></div>
+                <div class="navlink">
+                    <div class="closebutton"><i class="fa fa-times-circle" aria-hidden="true"></i></div>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                Las Vegas</a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Makaó</a>
+                        </li>
+                        <li>
+                            <a href="#">Monte Carlo</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="open"><i class="fa fa-bars" aria-hidden="true"></i></div>
+            </div>
+        </div>
+    </nav>
+    <!-- header end -->
+
+    <!-- site privacybanner start -->
+    <div class="privacy__section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="banner__text">
+                        <h1>Adatvédelmi irányelvek</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- site privacybanner end -->
+
+    <!-- site privacytext start -->
+    <section class="privacy-policy">
+        <div class="container">
+            <div class="content-wrap">
+                <h3><b>Ez az adatvédelmi szabályzat leírja, hogy a magyarlegjobb.com mi, mi hogyan gyűjt,
+                        használ és oszt meg információkat, amikor Ön weboldalunkat vagy szolgáltatásainkat
+                        használja</h3>
+                </p><br>
+                <p>Amikor Ön weboldalunkat használja, személyes adatokat gyűjthetünk, mint például az Ön
+                    nevét, e-mail címét, postai címét, telefonszámát és egyéb hasonló elérhetőségi adatokat,
+                    valamint információkat arról, hogyan használja webhelyünket, beleértve a böngészési
+                    előzményeket, a keresési lekérdezéseket, IP-cím, eszközinformáció és egyéb használati
+                    adatok.
+                </p><br>
+                <p>Az összegyűjtött információkat szolgáltatásaink biztosítására és személyre szabására,
+                    Önnel való kommunikációra, weboldalunk és szolgáltatásaink elemzésére és fejlesztésére,
+                    valamint jogi kötelezettségeink teljesítésére használhatjuk fel. Az Ön adatait megoszthatjuk
+                    harmadik felekkel, beleértve a szolgáltatókat, partnereket és hatóságokat, ha ez szükséges
+                    a weboldalunk működtetéséhez, szolgáltatásaink nyújtásához vagy a jogi követelményeknek
+                    való megfeleléshez
+                </p><br>
+                <p>Cookie-kat és hasonló nyomkövetési technológiákat használunk, hogy információkat
+                    gyűjtsünk és tároljunk a webhelyünk használatával kapcsolatban. A cookie-kat a böngésző
+                    beállításaival és egyéb követési beállításokkal szabályozhatja.</p><br>
+                <p>Ön rendelkezhet bizonyos jogokkal a személyes adataival kapcsolatban, beleértve az
+                    adatokhoz való hozzáférést, azok helyesbítését vagy törlését. Kérjük, forduljon hozzánk, ha
+                    élni kíván e jogaival, vagy bármilyen kérdése van a magánéletével kapcsolatban.
+                    
+                </p><br>
+                <p>Ésszerű intézkedéseket teszünk, hogy megvédjük adatait a jogosulatlan hozzáféréstől,
+                    nyilvánosságra hozataltól, megváltoztatástól vagy megsemmisítéstől. Ezt az Adatvédelmi
+                    szabályzatot időről időre frissíthetjük, hogy tükrözze gyakorlatunk vagy jogi követelményeink
+                    változásait.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- site privacytext end -->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="javascript/bootstrap.js"></script>
+    <script src="javascript/slick.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".open").click(function () {
+                $("body").addClass("toggle");
+            });
+        });
+        $(document).ready(function () {
+            $(".closebutton").click(function () {
+                $("body").removeClass("toggle");
+            });
+        });
+        $('.multiple-items').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            dots: false,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false
+                    }
+                },
+            ]
+        });
+
+    </script>
+</body>
+
+</html>
