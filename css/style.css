@@ -269,32 +269,19 @@ button:hover {
 
 }
 
-.shop_btn.shoe {
-    padding-top: 10px;
-}
-
-.shoe a {
-    color: #000;
-    font-family: Inter;
-    font-size: 17.313px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 30.01px;
-    text-decoration-line: underline;
-}
-
 .icon img {
     padding-top: 26px;
 }
 
 .gallery.mb-2 {
-    border: 1px solid;
     background: white;
     padding: 20px;
+    height: 530px;
 }
 
-.section8 {
+.Makao_section {
     padding: 50px 0;
+    background-color: var(--secondary-color);
 }
 
 .img_box img {
