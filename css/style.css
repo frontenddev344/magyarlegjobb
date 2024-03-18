@@ -276,7 +276,7 @@ button:hover {
 .gallery.mb-2 {
     background: white;
     padding: 20px;
-    height: 530px;
+    height: 600px;
 }
 
 .Makao_section {
@@ -289,10 +289,69 @@ button:hover {
     object-fit: cover;
 }
 
+/* info box styling */
+.contact_banner{
+    height: 400px;
+    background-image: url(../image/cpntactbanner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.contact_banner::before {
+    position: absolute;
+    content: '';
+    background: #000000a8;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.about_info h3 {
+    text-align: left;
+    color: var(--primary-color);
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.about_info p {
+    text-align: left;
+    color: #000;
+    font-size: 18px;
+    max-width: 600px;
+    padding-bottom: 20px;
+}
+
+.form-control {
+    padding: 10px;
+    border: 1px solid #00000024;
+    border-radius: unset;
+}
+
+input.form-control.sub_btn {
+    width: 200px;
+    padding: 10px;
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    color: #fff;
+    border: 1px solid transparent;
+    transition: all 0.5s;
+}
+
+input.form-control.sub_btn:hover {
+    background: #fff;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.information_box {
+    padding: 80px 0;
+}
+
 /*privacy-policy start*/
 .privacy__section {
     position: relative;
-    height: 350px;
+    height: 400px;
     background-image: url(../image/privacybanner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -458,60 +517,6 @@ a:focus {
     margin: 0;
     padding: 0;
 }
-
-/*START NEWSLETTER CSS*/
-.Sign {
-    display: block;
-    position: relative;
-    margin-top: 15px;
-    width: 100%;
-}
-
-.Sign__input {
-    background-color: #fff;
-    border: medium none;
-    border-radius: 5px;
-    color: #333;
-    display: block;
-    font-size: 15px;
-    font-weight: 500;
-    height: 60px;
-    letter-spacing: 0.4px;
-    margin: 0;
-    padding: 0 150px 0 20px;
-    text-align: center;
-    text-transform: capitalize;
-    outline: none;
-    width: 100%;
-}
-
-
-.Sign__btn {
-    background-color: transparent;
-    border-radius: 0 25px 25px 0;
-    color: var(--primary-color);
-    cursor: pointer;
-    display: block;
-    font-size: 20px;
-    height: 60px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 60px;
-}
-
-.Sign__btn i {
-    transition: all 0.3s ease 0s;
-}
-
-
-.Sign__btn:hover i {
-    color: var(--secondary-color);
-}
-
-
-/*END NEWSLETTER CSS*/
-
 /*START SOCIAL PROFILE CSS*/
 .social_profile {
     margin-top: 10px;
@@ -618,7 +623,7 @@ a:focus {
 }
 
 .panel-default>.panel-heading a[aria-expanded="true"] {
-    background-color:var(--secondary-color);
+    background-color: var(--secondary-color);
 }
 
 .panel-default>.panel-heading a[aria-expanded="true"]:after {
@@ -632,4 +637,47 @@ a:focus {
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+
 /* accordian styling end */
+/* monte carlo styling start */
+
+.montecarlo_banner{
+    height: 400px;
+    background-image: url(../image/montecarlobanner.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.montecarlo_banner::before {
+    position: absolute;
+    content: '';
+    background: #000000a8;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.montecarlo_section {
+    padding: 50px 0;
+    background-color: var(--secondary-color);
+   
+}
+/* monte carlo styling end */
+/* makao styling start */
+.makao_banner{
+    height: 400px;
+    background-image: url(../image/CityofDreamsMakaó.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.makao_banner::before {
+    position: absolute;
+    content: '';
+    background: #000000a8;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+/* makao styling end */
