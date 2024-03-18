@@ -191,14 +191,21 @@ button:hover {
 }
 
 .outer_div.one {
-background-image: url(../image/wayn.jpg);
+    background-image: url(../image/wayn.jpg);
 }
+
 .outer_div.two {
-background-image: url(../image/ballenio.jpg);
+    background-image: url(../image/ballenio.jpg);
 }
+
 .outer_div.three {
     background-image: url(../image/mgm.jpg);
-    }
+}
+
+.outer_div.four {
+    background-image: url(../image/caesars.jpg);
+}
+
 .outer_div {
     background-image: url(../image/detail1.jpg);
     background-position: center;
@@ -326,7 +333,7 @@ a:focus {
 }
 
 .footer {
-   background-color: var(--primary-color);
+    background-color: var(--primary-color);
     padding: 40px 0;
 }
 
@@ -477,7 +484,7 @@ a:focus {
     transition: all 0.3s ease 0s;
     margin: 0px 5px;
     font-size: 18px;
-    color:var(--primary-color);
+    color: var(--primary-color);
     border-radius: 30px;
     width: 50px;
     height: 50px;
@@ -489,7 +496,7 @@ a:focus {
 
 
 .social_profile ul li a:hover {
-    background:transparent;
+    background: transparent;
     border: 1px solid #fff;
     color: #fff;
     border: 0px;
@@ -515,3 +522,64 @@ a:focus {
 }
 
 /* footer styling end */
+/* accordian styling start */
+.hotel_accordian {
+    padding: 80px 0;
+}
+
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: #fff;
+    border-color: #e4e5e7;
+    padding: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.panel-default>.panel-heading a {
+    display: block;
+    padding: 10px 15px;
+    background: var(--primary-color);
+    color: #fff
+}
+
+.panel-body {
+
+    padding: 20px;
+    font-size: 16px;
+
+}
+
+.panel-default>.panel-heading a:after {
+    content: "";
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    float: right;
+    transition: transform .25s linear;
+    -webkit-transition: -webkit-transform .25s linear;
+}
+
+.panel-default>.panel-heading a[aria-expanded="true"] {
+    background-color:var(--secondary-color);
+}
+
+.panel-default>.panel-heading a[aria-expanded="true"]:after {
+    content: "\2212";
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.panel-default>.panel-heading a[aria-expanded="false"]:after {
+    content: "\002b";
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+/* accordian styling end */
