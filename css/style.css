@@ -190,6 +190,15 @@ button:hover {
     background: var(--secondary-color)
 }
 
+.outer_div.one {
+background-image: url(../image/wayn.jpg);
+}
+.outer_div.two {
+background-image: url(../image/ballenio.jpg);
+}
+.outer_div.three {
+    background-image: url(../image/mgm.jpg);
+    }
 .outer_div {
     background-image: url(../image/detail1.jpg);
     background-position: center;
@@ -213,6 +222,7 @@ button:hover {
     justify-content: center;
     padding: 20px;
     position: relative;
+    height: 350px;
     left: 10%;
     gap: 15px;
 }
@@ -316,9 +326,7 @@ a:focus {
 }
 
 .footer {
-    background-image: url(../img/footerbg.jpg);
-    background-position: center;
-    background-size: cover;
+   background-color: var(--primary-color);
     padding: 40px 0;
 }
 
@@ -337,17 +345,17 @@ a:focus {
     font-size: 20px;
 }
 
-.single_footer h4::after {
+/* .single_footer h4::after {
     content: "";
     display: block;
     height: 2px;
     width: 40px;
     background: #fff;
     margin-top: 20px;
-}
+} */
 
 .single_footer p {
-    color: #eddd91;
+    color: var(--secondary-color);
     text-transform: uppercase;
     margin-top: 21px;
 }
@@ -469,20 +477,21 @@ a:focus {
     transition: all 0.3s ease 0s;
     margin: 0px 5px;
     font-size: 18px;
-    color: #fff;
+    color:var(--primary-color);
     border-radius: 30px;
     width: 50px;
     height: 50px;
     line-height: 50px;
     display: block;
+    background: #fff;
     border: 1px solid var(--secondary-color);
 }
 
 
 .social_profile ul li a:hover {
-    background: var(--secondary-color);
-    border: 1px solid var(--secondary-color);
-    color: var(--primary-color);
+    background:transparent;
+    border: 1px solid #fff;
+    color: #fff;
     border: 0px;
 }
 
@@ -502,7 +511,7 @@ a:focus {
 }
 
 .copyright a:hover {
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 /* footer styling end */
