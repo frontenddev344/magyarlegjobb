@@ -131,7 +131,7 @@ button a {
     color: #fff !important;
 }
 button a:hover {
-    color: var(--primary-color);
+    color: var(--primary-color) !important;
 }
 button {
     background: var(--primary-color);
@@ -141,7 +141,7 @@ button {
     font-weight: 700;
 }
 
-button:hover {
+button a:hover {
     background: transparent;
     border: 1px solid var(--primary-color);
     color: var(--secondary-color);
