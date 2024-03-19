@@ -890,3 +890,20 @@ a.common_btn:hover {
 }
 
 /* home aside styling end */
+
+/* simple section start */
+.simple-section {
+padding: 80px 0;
+background: var(--secondary-color);
+}
+.refer_inner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+.refer_inner >img {
+    width: 70%;
+}
+/* simple section end */
