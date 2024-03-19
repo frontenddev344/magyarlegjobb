@@ -831,7 +831,7 @@ a.btn.btn-primary.setting-cookies {
 }
 
 .row.upcoming_aside {
-    border-left: 2px solid var(--main-color);
+    border-left: 2px solid var(--primary-color);
     padding-left: 40px;
     margin-left: 20px;
 }
