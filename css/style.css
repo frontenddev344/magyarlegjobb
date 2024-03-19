@@ -756,6 +756,8 @@ a:focus {
     background: #fff;
     padding: 40px;
     height: 320px;
+    margin-left: 0;
+    margin-right: -30px;
 }
 .hotel_box {
     display: flex;
