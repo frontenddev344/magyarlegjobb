@@ -130,6 +130,9 @@ nav.sticky {
 button a {
     color: #fff !important;
 }
+button a:hover {
+    color: var(--primary-color);
+}
 button {
     background: var(--primary-color);
     padding: 10px 40px 10px 40px;
