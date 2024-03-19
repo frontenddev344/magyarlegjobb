@@ -142,5 +142,8 @@
     .row.upcoming_aside h3 {
         font-size: 28px;
     }
+    .refer_inner >img {
+        width: 100%;
+    }
 
 }
