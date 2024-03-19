@@ -126,6 +126,18 @@
     .hotel_box.reverse p {
         text-align: left;
     }
+    .single_footer.single_footer_address {
+        display: block;
+    }
+    .single_footer.single_footer_menu ul {
+        display: block;
+        margin-bottom: 20px;
+    }
+    
+.single_footer ul li {
+    border-right: unset;
+    padding-right: unset;
+}
 }
 
 @media (max-width: 575px) {
