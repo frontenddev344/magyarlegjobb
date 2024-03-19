@@ -117,7 +117,12 @@ nav {
     width: 100%;
     transition: 0.3s;
 }
-
+nav.sticky {
+    background: #222;
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+    padding: 10px 0;
+    position: fixed;
+}
 /* navbar stylng end */
 button {
     background: #fff;

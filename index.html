@@ -264,6 +264,16 @@
             return "";
         }
     </script>
+    <script>
+
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                var nav = $("nav");
+                nav.toggleClass("sticky", $(window).scrollTop() > 0);
+            });
+        });
+
+    </script>
 </body>
 
 </html>
