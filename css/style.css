@@ -737,11 +737,20 @@ a:focus {
     height: 350px;
     object-fit: cover;
 }
+
 .hotel_box {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    height: 100%;
     text-align: center;
-    padding: 20px 0;
-    background: var(--primary-color);
+    background: #fff;
+    padding: 10px;
+    margin-left: -100px;
+    height: 320px;
 }
+
 .hotel_box p {
     margin: 20px 0;
 }
