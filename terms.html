@@ -102,65 +102,65 @@
         </div>
     </section>
     <!-- site termstext end -->
-<!--footer start-->
-<div class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-sm-6 col-xs-12">
-                <div class="single_footer">
-                    <a href="index.html">
-                        <h4><img src="image/logo.png" alt="logo"></h4>
-                    </a>
-                    <ul>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="single_footer single_footer_address">
-                    <h4>
-                        Oldal linkje
-                    </h4>
-                    <ul>
-                        <li><a href="lasvegas.html">Las Vegas</a></li>
-                        <li><a href="Makaó.html">Makaó</a></li>
-                        <li><a href="MonteCarlo.html">Monte Carlo</a></li>
-                        <li><a href="contactus.html">lépjen kapcsolatba velünk</a></li>
-                        <li><a href="privacypolicy.html">Adatvédelmi irányelvek</a></li>
-                        <li><a href="terms.html">Felhasználási feltételek</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-12 col-xs-12">
-                <div class="single_footer single_footer_address">
-                    <h4>Többet tudni</h4>
-                    <div class="email">
-                        <p>EMAIL:
-                        </p>
+    <!--footer start-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 col-xs-12">
+                    <div class="single_footer">
+                        <a href="index.html">
+                            <h4><img src="image/logo.png" alt="logo"></h4>
+                        </a>
                         <ul>
-                            <li>
-                                <a href="mailto:info@magyarlegjobb">info@magyarlegjobb.com</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="social_profile">
-                        <ul>
-                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
                 </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="single_footer single_footer_address">
+                        <h4>
+                            Oldal linkje
+                        </h4>
+                        <ul>
+                            <li><a href="lasvegas.html">Las Vegas</a></li>
+                            <li><a href="Makaó.html">Makaó</a></li>
+                            <li><a href="MonteCarlo.html">Monte Carlo</a></li>
+                            <li><a href="contactus.html">lépjen kapcsolatba velünk</a></li>
+                            <li><a href="privacypolicy.html">Adatvédelmi irányelvek</a></li>
+                            <li><a href="terms.html">Felhasználási feltételek</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <div class="single_footer single_footer_address">
+                        <h4>Többet tudni</h4>
+                        <div class="email">
+                            <p>EMAIL:
+                            </p>
+                            <ul>
+                                <li>
+                                    <a href="mailto:info@magyarlegjobb">info@magyarlegjobb.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="social_profile">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12 col-sm-12 col-xs-12">
-                <p class="copyright">Copyright © 2024 <a href="index.html"></a>magyarlegjobb.</p>
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 col-xs-12">
+                    <p class="copyright">Copyright © 2024 <a href="index.html"></a>magyarlegjobb.</p>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<!-- footer end-->
+    <!-- footer end-->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="javascript/bootstrap.js"></script>
@@ -178,7 +178,17 @@
             });
         });
     </script>
-    
+    <script>
+
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                var nav = $("nav");
+                nav.toggleClass("sticky", $(window).scrollTop() > 0);
+            });
+        });
+
+    </script>
+
 </body>
 
 </html>
