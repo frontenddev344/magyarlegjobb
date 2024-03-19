@@ -906,4 +906,7 @@ background: var(--secondary-color);
 .refer_inner >img {
     width: 70%;
 }
+.refer_inner p {
+    max-width: 600px;
+}
 /* simple section end */
