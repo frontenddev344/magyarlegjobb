@@ -1,7 +1,13 @@
+@media screen and (max-width:1380px) {
+    .outer_div {
+        padding: 20px 0 20px 0px;
+    }
+}
+
 @media screen and (max-width:1200px) {
     body.toggle .navlink {
         transform: translateX(0);
-        
+
     }
 
     .open {
@@ -81,5 +87,5 @@
         font-size: 16px;
 
     }
-    
+
 }
