@@ -117,6 +117,7 @@ nav {
     width: 100%;
     transition: 0.3s;
 }
+
 /* 
 nav.sticky {
     background: var(--primary-color);
@@ -163,6 +164,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     height: 100%;
     text-align: center;
     position: absolute;
@@ -176,6 +178,8 @@ button:hover {
 .banner_box h1 {
     font-size: 45px;
     text-transform: uppercase;
+    background: rgba(144, 144, 144, .5);
+    padding: 30px 60px;
 }
 
 .banner_box p {
@@ -842,6 +846,7 @@ a.btn.btn-primary.setting-cookies {
     font-size: 35px;
     margin-top: 20px;
 }
+
 a.common_btn {
     text-decoration: none;
     padding: 8px 60PX;
@@ -852,9 +857,11 @@ a.common_btn {
     border-radius: 5px;
     font-size: 18px;
 }
+
 a.common_btn:hover {
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
     background: transparent;
 }
+
 /* home aside styling end */
