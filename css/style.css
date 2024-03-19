@@ -117,12 +117,14 @@ nav {
     width: 100%;
     transition: 0.3s;
 }
+
 nav.sticky {
     background: var(--primary-color);
     animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
     padding: 10px 0;
     position: fixed;
 }
+
 /* navbar stylng end */
 button {
     background: #fff;
@@ -800,3 +802,44 @@ a.btn.btn-primary.setting-cookies {
 
 /* 
 /cookie end/ */
+
+/* home aside styling */
+.homeaside_section {
+    padding: 80px;
+}
+
+.events {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+}
+
+.box img {
+    width: 140px;
+}
+
+.box img:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.box2 h4 {
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.row.upcoming_events {
+    border-left: 2px solid var(--main-color);
+    padding-left: 40px;
+    margin-left: 20px;
+}
+
+.row.upcoming_events h3 {
+    color: var(--main-color);
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+/* home aside styling end */
