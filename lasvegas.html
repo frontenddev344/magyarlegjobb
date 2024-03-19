@@ -90,7 +90,7 @@
                                 játékpadlóiról híres The Venetian és The Palazzo folyamatosan a legjobb Las Vegas-i
                                 kaszinók közé tartozik, és nagy dicséretet kap a vendégektől és az iparági szakértőktől
                                 egyaránt. </p>
-                            <span><img src="image/rating.png" alt="Rating"></span>
+                                <div class="rating_box"><img src="image/rating.png" alt="Rating"></div>
                         </div>
                     </div>
                 </div>
@@ -103,7 +103,7 @@
                                 foglal el a kaszinóiparban, vonzó az igényes utazók számára, akik kifinomult
                                 játékélményre
                                 vágynak</p>
-                            <span><img src="image/rating.png" alt="Rating"></span>
+                            <div class="rating_box"><img src="image/rating.png" alt="Rating"></div>
                         </div>
                     </div>
                 </div>
@@ -114,7 +114,7 @@
                             <p>ikonikus szökőkutaival, előkelő légkörével és híres vendégszeretetével a Bellagio
                                 Las Vegas egyik legjelentősebb kaszinójaként őrzi meg a hírnevét, amely elismeréseket
                                 szerez klasszikus bájáért és csúcskategóriás kínálatáért.</p>
-                            <span><img src="image/rating.png" alt="Rating"></span>
+                                <div class="rating_box"><img src="image/rating.png" alt="Rating"></div>
                         </div>
                     </div>
                 </div>
@@ -127,7 +127,7 @@
                             <p>A Strip egyik legnagyobb és legikonikusabb üdülőhelyeként az MGM Grand
                                 előkelő helyet foglal el a Las Vegas-i kaszinó színterén, sokféle játéklehetőséget,
                                 csúcsminőségű szórakozást és elismert étkezési élményeket kínálva.</p>
-                            <span><img src="image/rating.png" alt="Rating"></span>
+                                <div class="rating_box"><img src="image/rating.png" alt="Rating"></div>
                         </div>
                     </div>
                 </div>
@@ -139,7 +139,7 @@
                                 történelemmel, fényűző kényelmi szolgáltatásokkal és szórakozási lehetőségek széles
                                 skálájával büszkélkedhet, amely elismeréseket és magas értékeléseket szerez tartós
                                 vonzereje és előkelő vendégélménye miatt.</p>
-                            <span><img src="image/rating.png" alt="Rating"></span>
+                                <div class="rating_box"><img src="image/rating.png" alt="Rating"></div>
                         </div>
                     </div>
                 </div>
@@ -276,5 +276,16 @@
     <script src="javascript/bootstrap.js"></script>
     <script src="javascript/slick.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-
+    <script>
+        $(document).ready(function () {
+            $(".open").click(function () {
+                $("body").addClass("toggle");
+            });
+        });
+        $(document).ready(function () {
+            $(".closebutton").click(function () {
+                $("body").removeClass("toggle");
+            });
+        });
+    </script>
 </body>

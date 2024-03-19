@@ -234,8 +234,15 @@ button:hover {
     gap: 15px;
 }
 
-.inner_div span img {
+.rating_box img {
     width: 140px;
+    height: auto;
+}
+
+.gallery .rating_box img {
+    width: 140px;
+    height: auto;
+    margin: 10px 0 0 0;
 }
 
 /* detail section styling end */
@@ -290,7 +297,7 @@ button:hover {
 }
 
 /* info box styling */
-.contact_banner{
+.contact_banner {
     height: 400px;
     background-image: url(../image/cpntactbanner.jpg);
     background-size: cover;
@@ -298,6 +305,7 @@ button:hover {
     background-repeat: no-repeat;
     position: relative;
 }
+
 .contact_banner::before {
     position: absolute;
     content: '';
@@ -306,6 +314,7 @@ button:hover {
     height: 100%;
     z-index: 0;
 }
+
 .about_info h3 {
     text-align: left;
     color: var(--primary-color);
@@ -517,6 +526,7 @@ a:focus {
     margin: 0;
     padding: 0;
 }
+
 /*START SOCIAL PROFILE CSS*/
 .social_profile {
     margin-top: 10px;
@@ -641,7 +651,7 @@ a:focus {
 /* accordian styling end */
 /* monte carlo styling start */
 
-.montecarlo_banner{
+.montecarlo_banner {
     height: 400px;
     background-image: url(../image/montecarlobanner.webp);
     background-size: cover;
@@ -649,6 +659,7 @@ a:focus {
     background-repeat: no-repeat;
     position: relative;
 }
+
 .montecarlo_banner::before {
     position: absolute;
     content: '';
@@ -657,14 +668,16 @@ a:focus {
     height: 100%;
     z-index: 0;
 }
+
 .montecarlo_section {
     padding: 50px 0;
     background-color: var(--secondary-color);
-   
+
 }
+
 /* monte carlo styling end */
 /* makao styling start */
-.makao_banner{
+.makao_banner {
     height: 400px;
     background-image: url(../image/CityofDreamsMakaó.jpg);
     background-size: cover;
@@ -672,6 +685,7 @@ a:focus {
     background-repeat: no-repeat;
     position: relative;
 }
+
 .makao_banner::before {
     position: absolute;
     content: '';
@@ -680,6 +694,7 @@ a:focus {
     height: 100%;
     z-index: 0;
 }
+
 /* makao styling end */
 /* section2 styling */
 .casinohotel_section {
@@ -736,6 +751,7 @@ a:focus {
     transition: all 500ms ease-out;
     left: 0;
 }
+
 .cookie-alert .btn {
     color: #fff;
     background-color: var(--primary-color);
@@ -747,6 +763,6 @@ a:focus {
     transform: translateY(0%);
     transition-delay: 1000ms;
 }
+
 /* 
 /cookie end/ */
-
