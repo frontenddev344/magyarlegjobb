@@ -493,7 +493,12 @@ a:focus {
     background: #fff;
     margin-top: 20px;
 } */
-
+.single_footer.single_footer_address {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
 .single_footer p {
     color: var(--secondary-color);
     text-transform: uppercase;
@@ -501,11 +506,11 @@ a:focus {
 }
 
 .single_footer ul {
+    display: flex;
     margin: 0;
     padding: 0;
     list-style: none;
 }
-
 .single_footer ul li {
     font-weight: 400;
     color: #fff;
