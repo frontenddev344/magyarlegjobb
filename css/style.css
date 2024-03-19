@@ -808,7 +808,7 @@ a.btn.btn-primary.setting-cookies {
     padding: 80px;
 }
 
-.events {
+.aside {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -830,13 +830,13 @@ a.btn.btn-primary.setting-cookies {
     margin-bottom: 2px;
 }
 
-.row.upcoming_events {
+.row.upcoming_aside {
     border-left: 2px solid var(--main-color);
     padding-left: 40px;
     margin-left: 20px;
 }
 
-.row.upcoming_events h3 {
+.row.upcoming_aside h3 {
     color: var(--main-color);
     font-size: 35px;
     margin-top: 20px;
