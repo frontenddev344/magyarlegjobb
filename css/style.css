@@ -737,7 +737,17 @@ a:focus {
     height: 350px;
     object-fit: cover;
 }
-
+.hotel_box.reverse {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    background: #fff;
+    padding: 10px;
+    height: 320px;
+}
 .hotel_box {
     display: flex;
     flex-direction: column;
