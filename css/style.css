@@ -128,10 +128,10 @@ nav.sticky {
 
 /* navbar stylng end */
 button {
-    background: #fff;
+    background: var(--primary-color);
     padding: 10px 40px 10px 40px;
-    border: 1px solid #fff;
-    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    color: #fff;
     font-weight: 700;
 }
 
