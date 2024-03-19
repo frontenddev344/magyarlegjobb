@@ -120,9 +120,9 @@ nav {
 
 /* navbar stylng end */
 button {
-    background: var(--secondary-color);
+    background: #fff;
     padding: 10px 40px 10px 40px;
-    border: 1px solid var(--secondary-color);
+    border: 1px solid #fff;
     color: var(--primary-color);
     font-weight: 700;
 }
@@ -717,6 +717,7 @@ a:focus {
 /* section2 styling */
 .casinohotel_section {
     padding: 80px 0;
+    background-color: var(--secondary-color);
 }
 
 .casino-picture img {
