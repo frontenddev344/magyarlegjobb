@@ -737,11 +737,10 @@ a:focus {
     height: 350px;
     object-fit: cover;
 }
-
 .hotel_box {
-    
+    text-align: center;
+    padding: 20px 0;
 }
-
 .hotel_box p {
     margin: 20px 0;
 }
