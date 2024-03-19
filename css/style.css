@@ -740,6 +740,7 @@ a:focus {
 .hotel_box {
     text-align: center;
     padding: 20px 0;
+    background: var(--primary-color);
 }
 .hotel_box p {
     margin: 20px 0;
