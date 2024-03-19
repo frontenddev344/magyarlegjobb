@@ -127,12 +127,6 @@ nav.sticky {
 } */
 
 /* navbar stylng end */
-button a {
-    color: #fff !important;
-}
-button a:hover {
-    color: var(--primary-color) !important;
-}
 button {
     background: var(--primary-color);
     padding: 10px 40px 10px 40px;
@@ -141,10 +135,14 @@ button {
     font-weight: 700;
 }
 
+.hotel_box button a {
+    color: inherit;
+}
+
 button:hover {
     background: transparent;
     border: 1px solid var(--primary-color);
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 /* banner styling  start */
