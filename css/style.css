@@ -143,7 +143,7 @@ button:hover {
 
 /* banner styling  start */
 .hotel_banner {
-    height: 500px;
+    height: 600px;
     background-image: url(../image/homebanner.jpg);
     background-size: cover;
     background-position: center;
