@@ -723,3 +723,30 @@ a:focus {
 }
 
 /* section2 styling end */
+/* /cookie start/ */
+.cookie-alert {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    margin: 0 !important;
+    z-index: 999;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: all 500ms ease-out;
+    left: 0;
+}
+.cookie-alert .btn {
+    color: #fff;
+    background-color: var(--primary-color);
+    border-color: #ffffff;
+}
+
+.cookie-alert.show {
+    opacity: 1;
+    transform: translateY(0%);
+    transition-delay: 1000ms;
+}
+/* 
+/cookie end/ */
+
