@@ -127,6 +127,9 @@ nav.sticky {
 } */
 
 /* navbar stylng end */
+button a {
+    color: #fff !important;
+}
 button {
     background: var(--primary-color);
     padding: 10px 40px 10px 40px;
@@ -135,7 +138,7 @@ button {
     font-weight: 700;
 }
 
-button:hover {
+button a:hover {
     background: transparent;
     border: 1px solid var(--primary-color);
     color: var(--secondary-color);
