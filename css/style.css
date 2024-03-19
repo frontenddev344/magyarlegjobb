@@ -226,7 +226,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: left;
-    justify-content: center;
+    justify-content: start;
     padding: 20px;
     position: relative;
     height: 350px;
