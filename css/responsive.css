@@ -99,6 +99,33 @@
         margin-top: 20px;
       
     }
+    .hotel_box {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        height: 100%;
+        text-align: center;
+        background: #fff;
+        padding: 40px;
+        margin-left: 0px; 
+        text-align: left;
+    }
+    .hotel_box.reverse {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        height: 100%;
+        text-align: center;
+        background: #fff;
+        padding: 40px;
+        margin-left: 0;
+        margin-right: 0px;
+    }
+    .hotel_box.reverse p {
+        text-align: left;
+    }
 }
 
 @media (max-width: 575px) {

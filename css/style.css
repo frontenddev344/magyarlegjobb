@@ -749,8 +749,6 @@ a:focus {
     flex-direction: column;
     align-items: end;
     justify-content: center;
-    height: 100%;
-    text-align: center;
     background: #fff;
     padding: 40px;
     height: 320px;
@@ -762,8 +760,6 @@ a:focus {
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    height: 100%;
-    text-align: center;
     background: #fff;
     padding: 40px;
     margin-left: -100px;
