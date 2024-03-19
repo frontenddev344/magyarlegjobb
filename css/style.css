@@ -141,7 +141,7 @@ button {
     font-weight: 700;
 }
 
-button a:hover {
+button:hover {
     background: transparent;
     border: 1px solid var(--primary-color);
     color: var(--secondary-color);
@@ -743,6 +743,9 @@ a:focus {
     height: 350px;
     object-fit: cover;
 }
+.hotel_box.reverse p {
+    text-align: right;
+}
 .hotel_box.reverse {
     display: flex;
     flex-direction: column;
@@ -765,6 +768,7 @@ a:focus {
     padding: 10px;
     margin-left: -100px;
     height: 320px;
+    text-align: left;
 }
 
 .hotel_box p {
