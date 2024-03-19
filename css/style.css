@@ -496,7 +496,7 @@ a:focus {
 .single_footer.single_footer_address {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
     gap: 20px;
 }
 .single_footer p {
