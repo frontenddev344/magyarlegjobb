@@ -894,8 +894,9 @@ a.btn.btn-primary.setting-cookies:hover {
 .box img {
     width: auto;
     height: 100px;
+    border-radius: 50%;
+    box-shadow: 1px 3px 3px #b7a136;
 }
-
 .box img:hover {
     transition: 0.5s;
     transform: scale(1.1);
