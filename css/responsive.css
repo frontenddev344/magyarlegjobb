@@ -142,7 +142,13 @@
     margin: 0px 5px 0px 0;
 }
 }
+@media (max-width: 767px) {
+    .banner_box h1 {
+        font-size: 32px;
+        padding: 30px 10px;
+    }
 
+}
 @media (max-width: 575px) {
     .box img {
         width: 90px;
@@ -160,9 +166,5 @@
     .refer_inner >img {
         width: 100%;
     }
-    .banner_box h1 {
-        font-size: 35px;
-        padding: 30px 10px;
-    }
-
+  
 }
