@@ -837,7 +837,11 @@ a:focus {
     background-color: var(--primary-color);
     border-color: #ffffff;
 }
-
+.cookie-alert .btn:hover {
+    color: var(--primary-color);
+    background-color: #fff;
+    border-color: var(--primary-color);
+}
 .cookie-alert.show {
     opacity: 1;
     transform: translateY(0%);
@@ -850,8 +854,11 @@ a.btn.btn-primary.setting-cookies {
     text-decoration: underline;
     padding-bottom: 0;
     margin-right: 14px;
+    border: none;
 }
-
+a.btn.btn-primary.setting-cookies:hover {
+   color: var(--primary-color);
+}
 /* 
 /cookie end/ */
 
