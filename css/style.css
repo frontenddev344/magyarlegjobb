@@ -952,10 +952,10 @@ a.common_btn:hover {
     gap: 20px;
 }
 
-.refer_inner>a img {
+/* .refer_inner>a img {
     width: 70%;
     height: 500px;
-}
+} */
 
 .refer_inner p {
     max-width: 600px;
