@@ -147,6 +147,10 @@
         font-size: 32px;
         padding: 30px 10px;
     }
+    .banner__text h1 {
+        font-size: 32px;
+        padding: 30px 10px;
+    }
 
 }
 @media (max-width: 575px) {
