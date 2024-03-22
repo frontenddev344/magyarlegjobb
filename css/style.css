@@ -547,7 +547,12 @@ a:focus {
     font-size: 15px;
     text-transform: capitalize;
 }
-
+.email ul li a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
 .single_footer ul li a:hover {
     color: var(--secondary-color);
 }
