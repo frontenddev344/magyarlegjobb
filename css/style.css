@@ -131,7 +131,7 @@ nav.sticky {
 } */
 
 /* navbar stylng end */
-button {
+a.button_main {
     background: var(--primary-color);
     padding: 10px 40px 10px 40px;
     border: 1px solid var(--primary-color);
@@ -143,7 +143,7 @@ button {
     color: inherit;
 }
 
-button:hover {
+a.button_main:hover {
     background: transparent;
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
