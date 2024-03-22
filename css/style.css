@@ -935,7 +935,7 @@ a.common_btn:hover {
     gap: 20px;
 }
 
-.refer_inner>img {
+.refer_inner>a img {
     width: 70%;
     height: 500px;
 }
