@@ -94,10 +94,8 @@ h2 {
     text-transform: uppercase;
 }
 
-.navlink ul li a:active {
-    text-decoration: underline;
-    text-decoration-color: #fff;
-    text-decoration-thickness:3px;
+.active {
+    border-bottom: 2px solid #fff;
 }
 
 .open {
