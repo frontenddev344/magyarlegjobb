@@ -175,4 +175,8 @@
     .simple-section {
         padding: 20px 0;
     }
+    .inner_div {
+        height: auto;
+       
+    }
 }
