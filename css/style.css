@@ -94,6 +94,12 @@ h2 {
     text-transform: uppercase;
 }
 
+.navlink ul li a:active {
+    text-decoration: underline;
+    text-decoration-color: #fff;
+    text-decoration-thickness:3px;
+}
+
 .open {
     display: none;
 }
@@ -837,11 +843,13 @@ a:focus {
     background-color: var(--primary-color);
     border-color: #ffffff;
 }
+
 .cookie-alert .btn:hover {
     color: var(--primary-color);
     background-color: #fff;
     border-color: var(--primary-color);
 }
+
 .cookie-alert.show {
     opacity: 1;
     transform: translateY(0%);
@@ -856,10 +864,12 @@ a.btn.btn-primary.setting-cookies {
     margin-right: 14px;
     border: none;
 }
+
 a.btn.btn-primary.setting-cookies:hover {
-   color: var(--primary-color);
-   text-decoration-color: var(--primary-color);
+    color: var(--primary-color);
+    text-decoration-color: var(--primary-color);
 }
+
 /* 
 /cookie end/ */
 
