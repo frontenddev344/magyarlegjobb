@@ -165,5 +165,10 @@
     .refer_inner >img {
         width: 100%;
     }
-  
+    .gallery.mb-2 {
+        height: auto;
+    }
+    .simple-section {
+        padding: 20px 0;
+    }
 }
