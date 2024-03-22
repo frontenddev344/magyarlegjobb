@@ -673,7 +673,7 @@ a:focus {
 }
 
 .panel-default>.panel-heading a[aria-expanded="true"] {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
 }
 
 .panel-default>.panel-heading a[aria-expanded="true"]:after {
