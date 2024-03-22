@@ -858,6 +858,7 @@ a.btn.btn-primary.setting-cookies {
 }
 a.btn.btn-primary.setting-cookies:hover {
    color: var(--primary-color);
+   text-decoration-color: var(--primary-color);
 }
 /* 
 /cookie end/ */
