@@ -974,7 +974,7 @@ a.common_btn:hover {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    gap: 1s0px;
+    gap: 10px;
 }
 
 /* .refer_inner>a img {
