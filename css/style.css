@@ -944,8 +944,9 @@ a.common_btn:hover {
     flex-direction: column;
     text-align: center;
     gap: 10px;
+    padding: 20px;
+    box-shadow: rgb(85 92 98 / 20%) 0px 8px 24px;
 }
-
 /* .refer_inner>a img {
     width: 70%;
     height: 500px;
