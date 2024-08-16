@@ -208,6 +208,7 @@ a.button_main:hover {
     padding: 80px 0;
     background: var(--secondary-color)
 }
+
 .inner_div {
     background: #fff;
     border-radius: 30px 30px 0;
@@ -380,12 +381,14 @@ input.form-control.sub_btn:hover {
     color: #fff;
     text-transform: uppercase;
 }
+
 .banner__text h1 {
     font-size: 45px;
     text-transform: uppercase;
     background: rgba(144, 144, 144, .5);
     padding: 30px 60px;
 }
+
 .banner__text {
     display: flex;
     flex-direction: column;
@@ -536,12 +539,14 @@ a:focus {
     font-size: 15px;
     text-transform: capitalize;
 }
+
 .email ul li a {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 5px;
 }
+
 .single_footer ul li a:hover {
     color: var(--secondary-color);
 }
@@ -597,6 +602,11 @@ a:focus {
     border: 1px solid var(--secondary-color);
 }
 
+.event_box {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
 
 .social_profile ul li a:hover {
     background: transparent;
@@ -891,6 +901,7 @@ a.btn.btn-primary.setting-cookies:hover {
     border-radius: 50%;
     box-shadow: 1px 3px 3px #b7a136;
 }
+
 .box img:hover {
     transition: 0.5s;
     transform: scale(1.1);
@@ -947,6 +958,7 @@ a.common_btn:hover {
     padding: 40px;
     box-shadow: rgb(85 92 98 / 20%) 0px 8px 24px;
 }
+
 /* .refer_inner>a img {
     width: 70%;
     height: 500px;
